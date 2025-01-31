@@ -1,4 +1,4 @@
-FROM tomcat
+FROM tomcat:11.0.2-jdk21-temurin-noble
 
 COPY . .
 
